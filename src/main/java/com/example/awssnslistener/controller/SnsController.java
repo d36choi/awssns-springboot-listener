@@ -23,7 +23,9 @@ public class SnsController {
 
     @NotificationSubscriptionMapping
     public void confirmSubscription(NotificationStatus notificationStatus) {
+        log.info("subscription confirming...");
         notificationStatus.confirmSubscription();
+        log.info("subscription confirmed!");
     }
 
 }
