@@ -1,7 +1,7 @@
 # awssns-springboot-listener
 
 ## awssns-springboot-listener
-amazon SNS 로부터 들어온 메시지를 리스닝 하는 메시지 리스너 서버입니다.
+amazon SNS 로부터 들어온 메시지를 리스닝 하는 메시지 리스너 서버입니다.  
 springboot message listener (from amazon SNS)
 
 ## features
@@ -14,7 +14,7 @@ cloud.aws.credentials.access-key=<ACCESSKEY>
 cloud.aws.credentials.secret-key=<SECRETKEY>
 
 ```
-위 application.properties 의 AWS Credential 항목들을 본인의 환경에 맞게 입력해야 합니다.
+위 application.properties 의 AWS Credential 항목들을 본인의 환경에 맞게 입력해야 합니다.  
 you should add AWS Credentials in application.properties.
 
 ## guideline
